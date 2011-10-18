@@ -58,4 +58,4 @@ name=Douglas Adams
 
 All primitive types (and their Object companions) are supported, as well as simple arrays, sets, and lists of such types.
 
-See the javadocs for details.
+See the [javadocs](http://namuol.github.com/Property-Annotations/) for details.
