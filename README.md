@@ -1,13 +1,14 @@
 Account.java:
+
 ```java
- class Account {
-     @Property
-     public Integer id;
-     
-     @Property
-     public String name;
-     ...
- }
+class Account {
+   @Property
+   public Integer id;
+   
+   @Property
+   public String name;
+   ...
+}
 ```
 
 someAccount.properties:
