@@ -7,7 +7,6 @@ class Account {
    
    @Property
    public String name;
-   ...
 }
 ```
 
@@ -28,7 +27,7 @@ Account someAccount = new Account();
 
 PropertiesHandler propHandler = new PropertiesHandler(someAccount);
 InputStream propStream = this.getContextClassLoader()
-                            .getResourceAsStream("someAccount.properties");
+                             .getResourceAsStream("someAccount.properties");
 
 Properties someAccountProperties = new Properties();
 someAccountProperties.load(propStream);
@@ -59,4 +58,4 @@ name=Douglas Adams
 
 All primitive types (and their Object companions) are supported, as well as simple arrays, sets, and lists of such types.
 
-See the javaocs for details.
+See the javadocs for details.
